@@ -1,6 +1,7 @@
 :root{
     --softblue: hsl(215, 51%, 70%);
     --cyan: hsl(178, 100%, 50%);
+    --cyan-trans: hsla(178, 100%, 50%, 0.24);
 
     --mainBG: hsl(217, 54%, 11%);
     --cardBG: hsl(216, 50%, 16%);
@@ -40,10 +41,34 @@ main{
     box-shadow: 0px 0px 10px 2px #12121210;
 }
 
-img.nft{
+.photo{
     width: 100%;
+    height: 300px;
+    background-image: url(../images/image-equilibrium.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.bg-hover{
+    width: 100%;
+    height: 100%;
+    background-color: var(--cyan-trans);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
     border-radius: 10px;
 }
+.bg-hover:hover{
+    opacity: 100;
+}
+
+/* img.nft{
+    width: 100%;
+    border-radius: 10px;
+} */
 
 
 .info-area{

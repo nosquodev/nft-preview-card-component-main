@@ -13,5 +13,5 @@ NFT Preview Card, propuesta de desarrollo de solución para el tercer reto.
 
 ### Redes Sociales
 
-[Facebook](https://www.facebook.com/nosquodev/)
-[Discord](https://discord.gg/pFUGDr3gtk)
+- [Facebook](https://www.facebook.com/nosquodev/)
+- [Discord](https://discord.gg/pFUGDr3gtk)
